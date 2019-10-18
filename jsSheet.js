@@ -51,4 +51,13 @@ function clickText(x){
     if(newText != null){
         document.getElementById(myid).innerHTML = newText;
     }
+
 } 
+
+function myAddSkill() {
+    let node = document.createElement("li");
+    let newSkill =  prompt('Add your skill');
+    let textnode = document.createTextNode(newSkill);
+    node.appendChild(textnode);
+    document.getElementById("mySkill").appendChild(node);
+  }
