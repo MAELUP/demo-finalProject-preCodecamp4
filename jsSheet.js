@@ -57,7 +57,14 @@ function clickText(x){
 function myAddSkill() {
     let node = document.createElement("li");
     let newSkill =  prompt('Add your skill');
-    let textnode = document.createTextNode(newSkill);
-    node.appendChild(textnode);
-    document.getElementById("mySkill").appendChild(node);
+    if(newSkill != null){
+        let textnode = document.createTextNode(newSkill);
+        node.appendChild(textnode);
+        document.getElementById("mySkill").appendChild(node);
+    }
+  }
+  
+  function myRemoveSkill() {
+    var list = document.getElementById("mySkill");
+    list.removeChild(list.lastChild);
   }
