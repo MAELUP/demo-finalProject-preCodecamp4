@@ -20,11 +20,11 @@ function clickText(x){
             myEdit = "Name";
             break;
         case myEdu_1:
-            myid = "mymyEdu_1";
+            myid = "myEdu_1";
             myEdit = "Acedemy";
             break;
         case myEduPro_1:
-            myid = "mmyEduPro_1";
+            myid = "myEduPro_1";
             myEdit = "Study Program";
             break;
         case myEduDate_1:
@@ -32,7 +32,7 @@ function clickText(x){
             myEdit = "Date of Study";
             break;
         case myEdu_2:
-            myid = "mmyEdu_2";
+            myid = "myEdu_2";
             myEdit = "Acedemy";
             break;
         case myEduPro_2:
