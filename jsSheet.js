@@ -57,7 +57,7 @@ function clickText(x){
 function myAddSkill() {
     let node = document.createElement("li");
     let newSkill =  prompt('Add your skill');
-    if(newSkill != null){
+    if(newSkill != null && newSkill != ""){
         let textnode = document.createTextNode(newSkill);
         node.appendChild(textnode);
         document.getElementById("mySkill").appendChild(node);
@@ -67,6 +67,13 @@ function myAddSkill() {
   function myRemoveSkill() {
     var list = document.getElementById("mySkill");
     list.removeChild(list.lastChild);
+  }
+
+  function myChangeBackgroundColor() {
+        let newColor =  prompt('INPUT ( color-name | code-color | rgb(x,x,x) )');
+    if(newColor != null && newColor != "" ){
+        document.getElementById("content").style.background = newColor ; 
+    }
   }
 
   

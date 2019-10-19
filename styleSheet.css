@@ -19,7 +19,10 @@ p{
 }
 
 body{
-    margin:0;
+  margin:0;
+}
+
+.bodyColor{
     background: rgb(83,70,102);
     background: linear-gradient(118deg, rgba(83,70,102,1) 0%, rgba(205,118,114,1) 100%);
 }
@@ -64,5 +67,14 @@ font-family: Monospace;
     border: 2px solid rgb(255, 0, 0);
 
   }
+
+  .buttoncolorBlack:hover {
+    background-color: black;
+    color: aliceblue;
+    border: 2px solid black;
+
+  }
+
+
   
   
