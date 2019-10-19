@@ -68,3 +68,5 @@ function myAddSkill() {
     var list = document.getElementById("mySkill");
     list.removeChild(list.lastChild);
   }
+
+  
