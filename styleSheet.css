@@ -14,11 +14,6 @@ p{
     margin-bottom: 40px;
 }
 
-.content {
-    max-width: 980px;
-    margin: auto;
-}
-
 .img-circle{
     border-radius: 50%;
 }
